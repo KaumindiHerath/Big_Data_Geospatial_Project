@@ -1,0 +1,7 @@
+test,test_used,statistic,p_value,conclusion
+H1_temperature_by_location,"Kruskal-Wallis H-test (non-parametric, chosen due to non-normality/unequal variance)",1204.4824040955766,3.1410143349142327e-258,REJECT H0 - significant difference between locations
+H2_rainfall_by_location,Kruskal-Wallis,1506.5189318000384,0.0,REJECT H0 - significant difference between locations
+H3_elevation_temperature,Pearson correlation,0.7211070791259906,0.10582557039194238,FAIL TO REJECT H0
+H4_elevation_rainfall,Pearson correlation,-0.6479426889396128,0.16409876806782536,FAIL TO REJECT H0
+H5_elevation_wind,Pearson correlation,0.21774902439591157,0.6785387089486379,FAIL TO REJECT H0
+H6_latitude_temperature,Pearson correlation,0.887599442809332,0.0182408000139868,REJECT H0

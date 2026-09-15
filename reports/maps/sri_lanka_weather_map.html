@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1475ad9c89ae059aa06da444f458bac6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 30px; left: 30px; z-index:9999; background:white;
+                padding:10px; border:1px solid #999; border-radius:4px; font-size:13px;">
+    <b>Marker size & color</b> = mean temperature (2020-2025)<br>
+    Click a marker for full location stats
+    </div>
+    
+            <div class="folium-map" id="map_1475ad9c89ae059aa06da444f458bac6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1475ad9c89ae059aa06da444f458bac6 = L.map(
+                "map_1475ad9c89ae059aa06da444f458bac6",
+                {
+                    center: [7.482433333333334, 80.59505],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_562ae730103046c0586407b4cb9dd85a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_562ae730103046c0586407b4cb9dd85a.addTo(map_1475ad9c89ae059aa06da444f458bac6);
+        
+    
+            var circle_marker_b89eab208426b7be74c54255cce26194 = L.circleMarker(
+                [7.7102, 81.6924],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fa3004", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.031120742092469, "stroke": true, "weight": 1}
+            ).addTo(map_1475ad9c89ae059aa06da444f458bac6);
+        
+    
+        var popup_cdacb50757a18e1c82a56ca518b073ff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b3cade98d1cd56133ad82d759f6bc9f = $(`<div id="html_9b3cade98d1cd56133ad82d759f6bc9f" style="width: 100.0%; height: 100.0%;"><b>Batticaloa</b><br>Elevation: 10 m<br>Mean temperature: 27.82 C<br>Mean annual rainfall: 1685 mm<br>Mean wind speed: 2.46 m/s<br>Mean humidity: 77.0 %</div>`)[0];
+                popup_cdacb50757a18e1c82a56ca518b073ff.setContent(html_9b3cade98d1cd56133ad82d759f6bc9f);
+            
+        
+
+        circle_marker_b89eab208426b7be74c54255cce26194.bindPopup(popup_cdacb50757a18e1c82a56ca518b073ff)
+        ;
+
+        
+    
+    
+            circle_marker_b89eab208426b7be74c54255cce26194.bindTooltip(
+                `<div>
+                     Batticaloa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_198131461ba288a43419427e5ef19cab = L.circleMarker(
+                [6.9271, 79.8612],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1330eb", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.31338959854017, "stroke": true, "weight": 1}
+            ).addTo(map_1475ad9c89ae059aa06da444f458bac6);
+        
+    
+        var popup_1877e44c5e9d2d78fc7c3dc621503291 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e1a7471437dd10e756d69cafd6fff2c2 = $(`<div id="html_e1a7471437dd10e756d69cafd6fff2c2" style="width: 100.0%; height: 100.0%;"><b>Colombo</b><br>Elevation: 9 m<br>Mean temperature: 26.89 C<br>Mean annual rainfall: 2728 mm<br>Mean wind speed: 2.40 m/s<br>Mean humidity: 82.7 %</div>`)[0];
+                popup_1877e44c5e9d2d78fc7c3dc621503291.setContent(html_e1a7471437dd10e756d69cafd6fff2c2);
+            
+        
+
+        circle_marker_198131461ba288a43419427e5ef19cab.bindPopup(popup_1877e44c5e9d2d78fc7c3dc621503291)
+        ;
+
+        
+    
+    
+            circle_marker_198131461ba288a43419427e5ef19cab.bindTooltip(
+                `<div>
+                     Colombo
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4c41f13a546b2892fd5c116ac092d859 = L.circleMarker(
+                [6.0535, 80.221],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0030ff", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.0, "stroke": true, "weight": 1}
+            ).addTo(map_1475ad9c89ae059aa06da444f458bac6);
+        
+    
+        var popup_8a8b37c560a7a9dcdf3f0c54e26066d0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_45efc919993b5ef62b1aad7d7b6054ec = $(`<div id="html_45efc919993b5ef62b1aad7d7b6054ec" style="width: 100.0%; height: 100.0%;"><b>Galle</b><br>Elevation: 3 m<br>Mean temperature: 26.82 C<br>Mean annual rainfall: 2771 mm<br>Mean wind speed: 2.74 m/s<br>Mean humidity: 83.9 %</div>`)[0];
+                popup_8a8b37c560a7a9dcdf3f0c54e26066d0.setContent(html_45efc919993b5ef62b1aad7d7b6054ec);
+            
+        
+
+        circle_marker_4c41f13a546b2892fd5c116ac092d859.bindPopup(popup_8a8b37c560a7a9dcdf3f0c54e26066d0)
+        ;
+
+        
+    
+    
+            circle_marker_4c41f13a546b2892fd5c116ac092d859.bindTooltip(
+                `<div>
+                     Galle
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_efd5d801093225c9e93c61c156a98fb3 = L.circleMarker(
+                [9.6615, 80.0255],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff3000", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.11049270072995, "stroke": true, "weight": 1}
+            ).addTo(map_1475ad9c89ae059aa06da444f458bac6);
+        
+    
+        var popup_244bd81b52f28760fc1a92d2b4bed9dc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_558ba91fce9d81637f7d6782348ddc19 = $(`<div id="html_558ba91fce9d81637f7d6782348ddc19" style="width: 100.0%; height: 100.0%;"><b>Jaffna</b><br>Elevation: 9 m<br>Mean temperature: 27.84 C<br>Mean annual rainfall: 1503 mm<br>Mean wind speed: 5.90 m/s<br>Mean humidity: 78.1 %</div>`)[0];
+                popup_244bd81b52f28760fc1a92d2b4bed9dc.setContent(html_558ba91fce9d81637f7d6782348ddc19);
+            
+        
+
+        circle_marker_efd5d801093225c9e93c61c156a98fb3.bindPopup(popup_244bd81b52f28760fc1a92d2b4bed9dc)
+        ;
+
+        
+    
+    
+            circle_marker_efd5d801093225c9e93c61c156a98fb3.bindTooltip(
+                `<div>
+                     Jaffna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4005ab4cf9544432f156b7aa90bedc2 = L.circleMarker(
+                [5.9549, 80.555],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0e30f0", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.23408758957622, "stroke": true, "weight": 1}
+            ).addTo(map_1475ad9c89ae059aa06da444f458bac6);
+        
+    
+        var popup_5ede60df7a52e19b7eaf27f117fdb85b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fb7a5eac107c8a4d2b941bc9a93b48e9 = $(`<div id="html_fb7a5eac107c8a4d2b941bc9a93b48e9" style="width: 100.0%; height: 100.0%;"><b>Matara</b><br>Elevation: 6 m<br>Mean temperature: 26.88 C<br>Mean annual rainfall: 1857 mm<br>Mean wind speed: 3.57 m/s<br>Mean humidity: 83.8 %</div>`)[0];
+                popup_5ede60df7a52e19b7eaf27f117fdb85b.setContent(html_fb7a5eac107c8a4d2b941bc9a93b48e9);
+            
+        
+
+        circle_marker_c4005ab4cf9544432f156b7aa90bedc2.bindPopup(popup_5ede60df7a52e19b7eaf27f117fdb85b)
+        ;
+
+        
+    
+    
+            circle_marker_c4005ab4cf9544432f156b7aa90bedc2.bindTooltip(
+                `<div>
+                     Matara
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c80f5114b42fd60be684731751c168c1 = L.circleMarker(
+                [8.5874, 81.2152],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ea3014", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.77416362530414, "stroke": true, "weight": 1}
+            ).addTo(map_1475ad9c89ae059aa06da444f458bac6);
+        
+    
+        var popup_43b539c5f7a400a39915c513003001ab = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1cdb97c99a6d6d43509fd80219f3bc20 = $(`<div id="html_1cdb97c99a6d6d43509fd80219f3bc20" style="width: 100.0%; height: 100.0%;"><b>Trincomalee</b><br>Elevation: 9 m<br>Mean temperature: 27.76 C<br>Mean annual rainfall: 1556 mm<br>Mean wind speed: 4.46 m/s<br>Mean humidity: 75.8 %</div>`)[0];
+                popup_43b539c5f7a400a39915c513003001ab.setContent(html_1cdb97c99a6d6d43509fd80219f3bc20);
+            
+        
+
+        circle_marker_c80f5114b42fd60be684731751c168c1.bindPopup(popup_43b539c5f7a400a39915c513003001ab)
+        ;
+
+        
+    
+    
+            circle_marker_c80f5114b42fd60be684731751c168c1.bindTooltip(
+                `<div>
+                     Trincomalee
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

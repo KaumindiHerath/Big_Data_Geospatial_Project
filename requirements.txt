@@ -1,0 +1,15 @@
+pandas>=2.0
+pyarrow>=14.0
+scipy>=1.11
+scikit-learn>=1.3
+statsmodels>=0.14
+matplotlib>=3.7
+seaborn>=0.13
+plotly>=5.18
+folium>=0.15
+xgboost>=2.0
+shap>=0.44
+
+# PySpark needs Java 17+/21 and, in some sandboxed environments, a clean
+# virtualenv (see README.md "PySpark setup" for why). Install separately:
+# pyspark>=3.5

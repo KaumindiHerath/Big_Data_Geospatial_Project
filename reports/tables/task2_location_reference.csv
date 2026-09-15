@@ -1,0 +1,7 @@
+location_id,name,country_code,region,latitude,longitude,elevation_m,country,timezone,is_original_6
+lk_galle,Galle,LK,South Asia,6.0535,80.221,3.0,LK,UTC,True
+lk_matara,Matara,LK,South Asia,5.9549,80.555,6.0,LK,UTC,True
+lk_colombo,Colombo,LK,South Asia,6.9271,79.8612,9.0,LK,UTC,True
+lk_jaffna,Jaffna,LK,South Asia,9.6615,80.0255,9.0,LK,UTC,True
+lk_trincomalee,Trincomalee,LK,South Asia,8.5874,81.2152,9.0,LK,UTC,True
+lk_batticaloa,Batticaloa,LK,South Asia,7.7102,81.6924,10.0,LK,UTC,True

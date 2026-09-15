@@ -1,0 +1,2 @@
+total_rows,total_locations,total_years,total_variables_columns,n_weather_parquet_files,raw_weather_parquet_size_MB,raw_data_dir_total_size_MB,processed_merged_parquet_size_MB,in_memory_pandas_size_MB,avg_bytes_per_row_parquet
+306888,6,6,64,35,20.128,20.27,12.913,176.743,65.59

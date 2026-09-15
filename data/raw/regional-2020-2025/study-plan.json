@@ -1,0 +1,6266 @@
+{
+  "model": "era5_seamless",
+  "variables": [
+    "temperature_2m",
+    "relative_humidity_2m",
+    "dew_point_2m",
+    "apparent_temperature",
+    "precipitation",
+    "rain",
+    "snowfall",
+    "snow_depth",
+    "weather_code",
+    "pressure_msl",
+    "surface_pressure",
+    "cloud_cover",
+    "cloud_cover_low",
+    "cloud_cover_mid",
+    "cloud_cover_high",
+    "et0_fao_evapotranspiration",
+    "vapour_pressure_deficit",
+    "wind_speed_10m",
+    "wind_speed_100m",
+    "wind_direction_10m",
+    "wind_direction_100m",
+    "wind_gusts_10m",
+    "soil_temperature_0_to_7cm",
+    "soil_temperature_7_to_28cm",
+    "soil_temperature_28_to_100cm",
+    "soil_temperature_100_to_255cm",
+    "soil_moisture_0_to_7cm",
+    "soil_moisture_7_to_28cm",
+    "soil_moisture_28_to_100cm",
+    "soil_moisture_100_to_255cm",
+    "boundary_layer_height",
+    "wet_bulb_temperature_2m",
+    "total_column_integrated_water_vapour",
+    "is_day",
+    "sunshine_duration",
+    "shortwave_radiation",
+    "direct_radiation",
+    "diffuse_radiation",
+    "direct_normal_irradiance",
+    "global_tilted_irradiance",
+    "terrestrial_radiation",
+    "shortwave_radiation_instant",
+    "direct_radiation_instant",
+    "diffuse_radiation_instant",
+    "direct_normal_irradiance_instant",
+    "global_tilted_irradiance_instant",
+    "terrestrial_radiation_instant"
+  ],
+  "timezone": "UTC",
+  "wind_speed_unit": "ms",
+  "temperature_unit": "celsius",
+  "precipitation_unit": "mm",
+  "tilt": 0,
+  "azimuth": 0,
+  "start": "2020-01-01",
+  "end": "2025-12-31",
+  "locations": [
+    {
+      "location_id": "lk_colombo",
+      "query": "Colombo",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.9271,
+      "longitude": 79.8612
+    },
+    {
+      "location_id": "lk_jaffna",
+      "query": "Jaffna",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 9.6615,
+      "longitude": 80.0255
+    },
+    {
+      "location_id": "lk_trincomalee",
+      "query": "Trincomalee",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 8.5874,
+      "longitude": 81.2152
+    },
+    {
+      "location_id": "lk_batticaloa",
+      "query": "Batticaloa",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 7.7102,
+      "longitude": 81.6924
+    },
+    {
+      "location_id": "lk_galle",
+      "query": "Galle",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.0535,
+      "longitude": 80.221
+    },
+    {
+      "location_id": "lk_matara",
+      "query": "Matara",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 5.9549,
+      "longitude": 80.555
+    },
+    {
+      "location_id": "lk_hambantota",
+      "query": "Hambantota",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.1429,
+      "longitude": 81.1212
+    },
+    {
+      "location_id": "lk_puttalam",
+      "query": "Puttalam",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 8.0362,
+      "longitude": 79.8283
+    },
+    {
+      "location_id": "lk_mannar",
+      "query": "Mannar",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 8.981,
+      "longitude": 79.9044
+    },
+    {
+      "location_id": "lk_anuradhapura",
+      "query": "Anuradhapura",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 8.3114,
+      "longitude": 80.4037
+    },
+    {
+      "location_id": "lk_polonnaruwa",
+      "query": "Polonnaruwa",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 7.9403,
+      "longitude": 81.0188
+    },
+    {
+      "location_id": "lk_kurunegala",
+      "query": "Kurunegala",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 7.4863,
+      "longitude": 80.3647
+    },
+    {
+      "location_id": "lk_ratnapura",
+      "query": "Ratnapura",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.6828,
+      "longitude": 80.3992
+    },
+    {
+      "location_id": "lk_kegalle",
+      "query": "Kegalle",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 7.2513,
+      "longitude": 80.3464
+    },
+    {
+      "location_id": "lk_matale",
+      "query": "Matale",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 7.4675,
+      "longitude": 80.6234
+    },
+    {
+      "location_id": "lk_kandy",
+      "query": "Kandy",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 7.2906,
+      "longitude": 80.6337
+    },
+    {
+      "location_id": "lk_gampola",
+      "query": "Gampola",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 7.1643,
+      "longitude": 80.5696
+    },
+    {
+      "location_id": "lk_nawalapitiya",
+      "query": "Nawalapitiya",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 7.0505,
+      "longitude": 80.53
+    },
+    {
+      "location_id": "lk_badulla",
+      "query": "Badulla",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.9934,
+      "longitude": 81.055
+    },
+    {
+      "location_id": "lk_ella",
+      "query": "Ella",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.8667,
+      "longitude": 81.0466
+    },
+    {
+      "location_id": "lk_welimada",
+      "query": "Welimada",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.902,
+      "longitude": 80.9223
+    },
+    {
+      "location_id": "lk_bandarawela",
+      "query": "Bandarawela",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.8259,
+      "longitude": 80.9982
+    },
+    {
+      "location_id": "lk_haputale",
+      "query": "Haputale",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.7681,
+      "longitude": 80.959
+    },
+    {
+      "location_id": "lk_hatton",
+      "query": "Hatton",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.8916,
+      "longitude": 80.5955
+    },
+    {
+      "location_id": "lk_diyatalawa",
+      "query": "Diyatalawa",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.807,
+      "longitude": 80.9595
+    },
+    {
+      "location_id": "lk_nuwara_eliya",
+      "query": "Nuwara Eliya",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.9497,
+      "longitude": 80.7891
+    },
+    {
+      "location_id": "lk_ambewela",
+      "query": "Ambewela",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.8992,
+      "longitude": 80.8028
+    },
+    {
+      "location_id": "lk_horton_plains",
+      "query": "Horton Plains",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.8021,
+      "longitude": 80.807
+    },
+    {
+      "location_id": "lk_pidurutalagala",
+      "query": "Pidurutalagala",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 7.0008,
+      "longitude": 80.7733
+    },
+    {
+      "location_id": "lk_sri_pada",
+      "query": "Sri Pada",
+      "country_code": "LK",
+      "region": "South Asia",
+      "latitude": 6.8096,
+      "longitude": 80.4994
+    },
+    {
+      "location_id": "in_chennai",
+      "query": "Chennai",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 13.0827,
+      "longitude": 80.2707
+    },
+    {
+      "location_id": "in_thoothukudi",
+      "query": "Thoothukudi",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 8.7642,
+      "longitude": 78.1348
+    },
+    {
+      "location_id": "in_kanyakumari",
+      "query": "Kanyakumari",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 8.0883,
+      "longitude": 77.5385
+    },
+    {
+      "location_id": "in_thiruvananthapuram",
+      "query": "Thiruvananthapuram",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 8.5241,
+      "longitude": 76.9366
+    },
+    {
+      "location_id": "in_kochi",
+      "query": "Kochi",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 9.9312,
+      "longitude": 76.2673
+    },
+    {
+      "location_id": "in_madurai",
+      "query": "Madurai",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 9.9252,
+      "longitude": 78.1198
+    },
+    {
+      "location_id": "in_coimbatore",
+      "query": "Coimbatore",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 11.0168,
+      "longitude": 76.9558
+    },
+    {
+      "location_id": "in_bengaluru",
+      "query": "Bengaluru",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    {
+      "location_id": "in_mysuru",
+      "query": "Mysuru",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 12.2958,
+      "longitude": 76.6394
+    },
+    {
+      "location_id": "in_munnar",
+      "query": "Munnar",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 10.0889,
+      "longitude": 77.0595
+    },
+    {
+      "location_id": "in_kodaikanal",
+      "query": "Kodaikanal",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 10.2381,
+      "longitude": 77.4892
+    },
+    {
+      "location_id": "in_ooty",
+      "query": "Ooty",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 11.4102,
+      "longitude": 76.695
+    },
+    {
+      "location_id": "in_doddabetta",
+      "query": "Doddabetta",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 11.4016,
+      "longitude": 76.7358
+    },
+    {
+      "location_id": "in_anamudi",
+      "query": "Anamudi",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 10.169,
+      "longitude": 77.0606
+    },
+    {
+      "location_id": "in_shillong",
+      "query": "Shillong",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 25.5788,
+      "longitude": 91.8933
+    },
+    {
+      "location_id": "in_darjeeling",
+      "query": "Darjeeling",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 27.041,
+      "longitude": 88.2663
+    },
+    {
+      "location_id": "in_gangtok",
+      "query": "Gangtok",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 27.3389,
+      "longitude": 88.6065
+    },
+    {
+      "location_id": "in_tawang",
+      "query": "Tawang",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 27.5861,
+      "longitude": 91.8594
+    },
+    {
+      "location_id": "in_lachen",
+      "query": "Lachen",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 27.7287,
+      "longitude": 88.5565
+    },
+    {
+      "location_id": "in_nathu_la",
+      "query": "Nathu La",
+      "country_code": "IN",
+      "region": "South Asia",
+      "latitude": 27.3868,
+      "longitude": 88.8308
+    },
+    {
+      "location_id": "np_biratnagar",
+      "query": "Biratnagar",
+      "country_code": "NP",
+      "region": "South Asia",
+      "latitude": 26.4525,
+      "longitude": 87.2718
+    },
+    {
+      "location_id": "np_janakpur",
+      "query": "Janakpur",
+      "country_code": "NP",
+      "region": "South Asia",
+      "latitude": 26.7271,
+      "longitude": 85.9407
+    },
+    {
+      "location_id": "np_bharatpur",
+      "query": "Bharatpur",
+      "country_code": "NP",
+      "region": "South Asia",
+      "latitude": 27.6833,
+      "longitude": 84.4333
+    },
+    {
+      "location_id": "np_pokhara",
+      "query": "Pokhara",
+      "country_code": "NP",
+      "region": "South Asia",
+      "latitude": 28.2096,
+      "longitude": 83.9856
+    },
+    {
+      "location_id": "np_kathmandu",
+      "query": "Kathmandu",
+      "country_code": "NP",
+      "region": "South Asia",
+      "latitude": 27.7172,
+      "longitude": 85.324
+    },
+    {
+      "location_id": "np_dhulikhel",
+      "query": "Dhulikhel",
+      "country_code": "NP",
+      "region": "South Asia",
+      "latitude": 27.6221,
+      "longitude": 85.5421
+    },
+    {
+      "location_id": "np_jomsom",
+      "query": "Jomsom",
+      "country_code": "NP",
+      "region": "South Asia",
+      "latitude": 28.7806,
+      "longitude": 83.7278
+    },
+    {
+      "location_id": "np_lukla",
+      "query": "Lukla",
+      "country_code": "NP",
+      "region": "South Asia",
+      "latitude": 27.6869,
+      "longitude": 86.7297
+    },
+    {
+      "location_id": "np_namche",
+      "query": "Namche Bazaar",
+      "country_code": "NP",
+      "region": "South Asia",
+      "latitude": 27.8053,
+      "longitude": 86.714
+    },
+    {
+      "location_id": "np_dingboche",
+      "query": "Dingboche",
+      "country_code": "NP",
+      "region": "South Asia",
+      "latitude": 27.892,
+      "longitude": 86.8314
+    },
+    {
+      "location_id": "bt_phuentsholing",
+      "query": "Phuentsholing",
+      "country_code": "BT",
+      "region": "South Asia",
+      "latitude": 26.8516,
+      "longitude": 89.3884
+    },
+    {
+      "location_id": "bt_punakha",
+      "query": "Punakha",
+      "country_code": "BT",
+      "region": "South Asia",
+      "latitude": 27.591,
+      "longitude": 89.8774
+    },
+    {
+      "location_id": "bt_paro",
+      "query": "Paro",
+      "country_code": "BT",
+      "region": "South Asia",
+      "latitude": 27.4287,
+      "longitude": 89.4164
+    },
+    {
+      "location_id": "bt_thimphu",
+      "query": "Thimphu",
+      "country_code": "BT",
+      "region": "South Asia",
+      "latitude": 27.4728,
+      "longitude": 89.6393
+    },
+    {
+      "location_id": "bt_chele_la",
+      "query": "Chele La",
+      "country_code": "BT",
+      "region": "South Asia",
+      "latitude": 27.3697,
+      "longitude": 89.3461
+    },
+    {
+      "location_id": "bd_dhaka",
+      "query": "Dhaka",
+      "country_code": "BD",
+      "region": "South Asia",
+      "latitude": 23.8103,
+      "longitude": 90.4125
+    },
+    {
+      "location_id": "bd_chattogram",
+      "query": "Chattogram",
+      "country_code": "BD",
+      "region": "South Asia",
+      "latitude": 22.3569,
+      "longitude": 91.7832
+    },
+    {
+      "location_id": "bd_sylhet",
+      "query": "Sylhet",
+      "country_code": "BD",
+      "region": "South Asia",
+      "latitude": 24.8949,
+      "longitude": 91.8687
+    },
+    {
+      "location_id": "bd_rangamati",
+      "query": "Rangamati",
+      "country_code": "BD",
+      "region": "South Asia",
+      "latitude": 22.7324,
+      "longitude": 92.2985
+    },
+    {
+      "location_id": "bd_sajek",
+      "query": "Sajek",
+      "country_code": "BD",
+      "region": "South Asia",
+      "latitude": 23.3819,
+      "longitude": 92.2938
+    },
+    {
+      "location_id": "mm_yangon",
+      "query": "Yangon",
+      "country_code": "MM",
+      "region": "Southeast Asia",
+      "latitude": 16.8409,
+      "longitude": 96.1735
+    },
+    {
+      "location_id": "mm_mandalay",
+      "query": "Mandalay",
+      "country_code": "MM",
+      "region": "Southeast Asia",
+      "latitude": 21.9588,
+      "longitude": 96.0891
+    },
+    {
+      "location_id": "mm_kalaw",
+      "query": "Kalaw",
+      "country_code": "MM",
+      "region": "Southeast Asia",
+      "latitude": 20.6333,
+      "longitude": 96.5667
+    },
+    {
+      "location_id": "mm_taunggyi",
+      "query": "Taunggyi",
+      "country_code": "MM",
+      "region": "Southeast Asia",
+      "latitude": 20.7888,
+      "longitude": 97.0337
+    },
+    {
+      "location_id": "mm_hakha",
+      "query": "Hakha",
+      "country_code": "MM",
+      "region": "Southeast Asia",
+      "latitude": 22.6445,
+      "longitude": 93.6108
+    },
+    {
+      "location_id": "th_bangkok",
+      "query": "Bangkok",
+      "country_code": "TH",
+      "region": "Southeast Asia",
+      "latitude": 13.7563,
+      "longitude": 100.5018
+    },
+    {
+      "location_id": "th_phuket",
+      "query": "Phuket",
+      "country_code": "TH",
+      "region": "Southeast Asia",
+      "latitude": 7.8804,
+      "longitude": 98.3923
+    },
+    {
+      "location_id": "th_chiang_mai",
+      "query": "Chiang Mai",
+      "country_code": "TH",
+      "region": "Southeast Asia",
+      "latitude": 18.7883,
+      "longitude": 98.9853
+    },
+    {
+      "location_id": "th_chiang_rai",
+      "query": "Chiang Rai",
+      "country_code": "TH",
+      "region": "Southeast Asia",
+      "latitude": 19.9105,
+      "longitude": 99.8406
+    },
+    {
+      "location_id": "th_mae_hong_son",
+      "query": "Mae Hong Son",
+      "country_code": "TH",
+      "region": "Southeast Asia",
+      "latitude": 19.302,
+      "longitude": 97.9654
+    },
+    {
+      "location_id": "th_khao_kho",
+      "query": "Khao Kho",
+      "country_code": "TH",
+      "region": "Southeast Asia",
+      "latitude": 16.6346,
+      "longitude": 100.995
+    },
+    {
+      "location_id": "th_doi_inthanon",
+      "query": "Doi Inthanon",
+      "country_code": "TH",
+      "region": "Southeast Asia",
+      "latitude": 18.5883,
+      "longitude": 98.4867
+    },
+    {
+      "location_id": "vn_hanoi",
+      "query": "Hanoi",
+      "country_code": "VN",
+      "region": "Southeast Asia",
+      "latitude": 21.0278,
+      "longitude": 105.8342
+    },
+    {
+      "location_id": "vn_da_nang",
+      "query": "Da Nang",
+      "country_code": "VN",
+      "region": "Southeast Asia",
+      "latitude": 16.0544,
+      "longitude": 108.2022
+    },
+    {
+      "location_id": "vn_da_lat",
+      "query": "Da Lat",
+      "country_code": "VN",
+      "region": "Southeast Asia",
+      "latitude": 11.9404,
+      "longitude": 108.4583
+    },
+    {
+      "location_id": "vn_sa_pa",
+      "query": "Sa Pa",
+      "country_code": "VN",
+      "region": "Southeast Asia",
+      "latitude": 22.3364,
+      "longitude": 103.8438
+    },
+    {
+      "location_id": "vn_fansipan",
+      "query": "Fansipan",
+      "country_code": "VN",
+      "region": "Southeast Asia",
+      "latitude": 22.3033,
+      "longitude": 103.775
+    },
+    {
+      "location_id": "la_vientiane",
+      "query": "Vientiane",
+      "country_code": "LA",
+      "region": "Southeast Asia",
+      "latitude": 17.9757,
+      "longitude": 102.6331
+    },
+    {
+      "location_id": "la_luang_prabang",
+      "query": "Luang Prabang",
+      "country_code": "LA",
+      "region": "Southeast Asia",
+      "latitude": 19.8833,
+      "longitude": 102.1333
+    },
+    {
+      "location_id": "la_phonsavan",
+      "query": "Phonsavan",
+      "country_code": "LA",
+      "region": "Southeast Asia",
+      "latitude": 19.45,
+      "longitude": 103.2167
+    },
+    {
+      "location_id": "la_paksong",
+      "query": "Paksong",
+      "country_code": "LA",
+      "region": "Southeast Asia",
+      "latitude": 15.1817,
+      "longitude": 106.23
+    },
+    {
+      "location_id": "kh_phnom_penh",
+      "query": "Phnom Penh",
+      "country_code": "KH",
+      "region": "Southeast Asia",
+      "latitude": 11.5564,
+      "longitude": 104.9282
+    },
+    {
+      "location_id": "kh_sen_monorom",
+      "query": "Sen Monorom",
+      "country_code": "KH",
+      "region": "Southeast Asia",
+      "latitude": 12.4558,
+      "longitude": 107.1881
+    },
+    {
+      "location_id": "kh_bokor",
+      "query": "Bokor",
+      "country_code": "KH",
+      "region": "Southeast Asia",
+      "latitude": 10.628,
+      "longitude": 104.028
+    },
+    {
+      "location_id": "my_george_town",
+      "query": "George Town",
+      "country_code": "MY",
+      "region": "Southeast Asia",
+      "latitude": 5.4141,
+      "longitude": 100.3288
+    },
+    {
+      "location_id": "my_cameron_highlands",
+      "query": "Cameron Highlands",
+      "country_code": "MY",
+      "region": "Southeast Asia",
+      "latitude": 4.47,
+      "longitude": 101.376
+    },
+    {
+      "location_id": "my_genting",
+      "query": "Genting Highlands",
+      "country_code": "MY",
+      "region": "Southeast Asia",
+      "latitude": 3.4239,
+      "longitude": 101.7932
+    },
+    {
+      "location_id": "id_medan",
+      "query": "Medan",
+      "country_code": "ID",
+      "region": "Southeast Asia",
+      "latitude": 3.5952,
+      "longitude": 98.6722
+    },
+    {
+      "location_id": "id_berastagi",
+      "query": "Berastagi",
+      "country_code": "ID",
+      "region": "Southeast Asia",
+      "latitude": 3.1947,
+      "longitude": 98.5089
+    },
+    {
+      "location_id": "sg_singapore",
+      "query": "Singapore",
+      "country_code": "SG",
+      "region": "Southeast Asia",
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  ],
+  "chunks": [
+    {
+      "location_id": "lk_colombo",
+      "latitude": 6.9271,
+      "longitude": 79.8612,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_colombo",
+      "latitude": 6.9271,
+      "longitude": 79.8612,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_colombo",
+      "latitude": 6.9271,
+      "longitude": 79.8612,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_colombo",
+      "latitude": 6.9271,
+      "longitude": 79.8612,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_colombo",
+      "latitude": 6.9271,
+      "longitude": 79.8612,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_colombo",
+      "latitude": 6.9271,
+      "longitude": 79.8612,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_jaffna",
+      "latitude": 9.6615,
+      "longitude": 80.0255,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_jaffna",
+      "latitude": 9.6615,
+      "longitude": 80.0255,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_jaffna",
+      "latitude": 9.6615,
+      "longitude": 80.0255,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_jaffna",
+      "latitude": 9.6615,
+      "longitude": 80.0255,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_jaffna",
+      "latitude": 9.6615,
+      "longitude": 80.0255,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_jaffna",
+      "latitude": 9.6615,
+      "longitude": 80.0255,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_trincomalee",
+      "latitude": 8.5874,
+      "longitude": 81.2152,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_trincomalee",
+      "latitude": 8.5874,
+      "longitude": 81.2152,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_trincomalee",
+      "latitude": 8.5874,
+      "longitude": 81.2152,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_trincomalee",
+      "latitude": 8.5874,
+      "longitude": 81.2152,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_trincomalee",
+      "latitude": 8.5874,
+      "longitude": 81.2152,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_trincomalee",
+      "latitude": 8.5874,
+      "longitude": 81.2152,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_batticaloa",
+      "latitude": 7.7102,
+      "longitude": 81.6924,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_batticaloa",
+      "latitude": 7.7102,
+      "longitude": 81.6924,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_batticaloa",
+      "latitude": 7.7102,
+      "longitude": 81.6924,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_batticaloa",
+      "latitude": 7.7102,
+      "longitude": 81.6924,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_batticaloa",
+      "latitude": 7.7102,
+      "longitude": 81.6924,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_batticaloa",
+      "latitude": 7.7102,
+      "longitude": 81.6924,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_galle",
+      "latitude": 6.0535,
+      "longitude": 80.221,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_galle",
+      "latitude": 6.0535,
+      "longitude": 80.221,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_galle",
+      "latitude": 6.0535,
+      "longitude": 80.221,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_galle",
+      "latitude": 6.0535,
+      "longitude": 80.221,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_galle",
+      "latitude": 6.0535,
+      "longitude": 80.221,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_galle",
+      "latitude": 6.0535,
+      "longitude": 80.221,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_matara",
+      "latitude": 5.9549,
+      "longitude": 80.555,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_matara",
+      "latitude": 5.9549,
+      "longitude": 80.555,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_matara",
+      "latitude": 5.9549,
+      "longitude": 80.555,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_matara",
+      "latitude": 5.9549,
+      "longitude": 80.555,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_matara",
+      "latitude": 5.9549,
+      "longitude": 80.555,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_matara",
+      "latitude": 5.9549,
+      "longitude": 80.555,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_hambantota",
+      "latitude": 6.1429,
+      "longitude": 81.1212,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_hambantota",
+      "latitude": 6.1429,
+      "longitude": 81.1212,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_hambantota",
+      "latitude": 6.1429,
+      "longitude": 81.1212,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_hambantota",
+      "latitude": 6.1429,
+      "longitude": 81.1212,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_hambantota",
+      "latitude": 6.1429,
+      "longitude": 81.1212,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_hambantota",
+      "latitude": 6.1429,
+      "longitude": 81.1212,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_puttalam",
+      "latitude": 8.0362,
+      "longitude": 79.8283,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_puttalam",
+      "latitude": 8.0362,
+      "longitude": 79.8283,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_puttalam",
+      "latitude": 8.0362,
+      "longitude": 79.8283,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_puttalam",
+      "latitude": 8.0362,
+      "longitude": 79.8283,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_puttalam",
+      "latitude": 8.0362,
+      "longitude": 79.8283,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_puttalam",
+      "latitude": 8.0362,
+      "longitude": 79.8283,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_mannar",
+      "latitude": 8.981,
+      "longitude": 79.9044,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_mannar",
+      "latitude": 8.981,
+      "longitude": 79.9044,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_mannar",
+      "latitude": 8.981,
+      "longitude": 79.9044,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_mannar",
+      "latitude": 8.981,
+      "longitude": 79.9044,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_mannar",
+      "latitude": 8.981,
+      "longitude": 79.9044,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_mannar",
+      "latitude": 8.981,
+      "longitude": 79.9044,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_anuradhapura",
+      "latitude": 8.3114,
+      "longitude": 80.4037,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_anuradhapura",
+      "latitude": 8.3114,
+      "longitude": 80.4037,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_anuradhapura",
+      "latitude": 8.3114,
+      "longitude": 80.4037,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_anuradhapura",
+      "latitude": 8.3114,
+      "longitude": 80.4037,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_anuradhapura",
+      "latitude": 8.3114,
+      "longitude": 80.4037,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_anuradhapura",
+      "latitude": 8.3114,
+      "longitude": 80.4037,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_polonnaruwa",
+      "latitude": 7.9403,
+      "longitude": 81.0188,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_polonnaruwa",
+      "latitude": 7.9403,
+      "longitude": 81.0188,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_polonnaruwa",
+      "latitude": 7.9403,
+      "longitude": 81.0188,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_polonnaruwa",
+      "latitude": 7.9403,
+      "longitude": 81.0188,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_polonnaruwa",
+      "latitude": 7.9403,
+      "longitude": 81.0188,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_polonnaruwa",
+      "latitude": 7.9403,
+      "longitude": 81.0188,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kurunegala",
+      "latitude": 7.4863,
+      "longitude": 80.3647,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_kurunegala",
+      "latitude": 7.4863,
+      "longitude": 80.3647,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kurunegala",
+      "latitude": 7.4863,
+      "longitude": 80.3647,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kurunegala",
+      "latitude": 7.4863,
+      "longitude": 80.3647,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kurunegala",
+      "latitude": 7.4863,
+      "longitude": 80.3647,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_kurunegala",
+      "latitude": 7.4863,
+      "longitude": 80.3647,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ratnapura",
+      "latitude": 6.6828,
+      "longitude": 80.3992,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_ratnapura",
+      "latitude": 6.6828,
+      "longitude": 80.3992,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ratnapura",
+      "latitude": 6.6828,
+      "longitude": 80.3992,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ratnapura",
+      "latitude": 6.6828,
+      "longitude": 80.3992,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ratnapura",
+      "latitude": 6.6828,
+      "longitude": 80.3992,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_ratnapura",
+      "latitude": 6.6828,
+      "longitude": 80.3992,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kegalle",
+      "latitude": 7.2513,
+      "longitude": 80.3464,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_kegalle",
+      "latitude": 7.2513,
+      "longitude": 80.3464,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kegalle",
+      "latitude": 7.2513,
+      "longitude": 80.3464,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kegalle",
+      "latitude": 7.2513,
+      "longitude": 80.3464,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kegalle",
+      "latitude": 7.2513,
+      "longitude": 80.3464,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_kegalle",
+      "latitude": 7.2513,
+      "longitude": 80.3464,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_matale",
+      "latitude": 7.4675,
+      "longitude": 80.6234,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_matale",
+      "latitude": 7.4675,
+      "longitude": 80.6234,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_matale",
+      "latitude": 7.4675,
+      "longitude": 80.6234,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_matale",
+      "latitude": 7.4675,
+      "longitude": 80.6234,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_matale",
+      "latitude": 7.4675,
+      "longitude": 80.6234,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_matale",
+      "latitude": 7.4675,
+      "longitude": 80.6234,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kandy",
+      "latitude": 7.2906,
+      "longitude": 80.6337,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_kandy",
+      "latitude": 7.2906,
+      "longitude": 80.6337,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kandy",
+      "latitude": 7.2906,
+      "longitude": 80.6337,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kandy",
+      "latitude": 7.2906,
+      "longitude": 80.6337,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_kandy",
+      "latitude": 7.2906,
+      "longitude": 80.6337,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_kandy",
+      "latitude": 7.2906,
+      "longitude": 80.6337,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_gampola",
+      "latitude": 7.1643,
+      "longitude": 80.5696,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_gampola",
+      "latitude": 7.1643,
+      "longitude": 80.5696,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_gampola",
+      "latitude": 7.1643,
+      "longitude": 80.5696,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_gampola",
+      "latitude": 7.1643,
+      "longitude": 80.5696,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_gampola",
+      "latitude": 7.1643,
+      "longitude": 80.5696,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_gampola",
+      "latitude": 7.1643,
+      "longitude": 80.5696,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_nawalapitiya",
+      "latitude": 7.0505,
+      "longitude": 80.53,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_nawalapitiya",
+      "latitude": 7.0505,
+      "longitude": 80.53,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_nawalapitiya",
+      "latitude": 7.0505,
+      "longitude": 80.53,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_nawalapitiya",
+      "latitude": 7.0505,
+      "longitude": 80.53,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_nawalapitiya",
+      "latitude": 7.0505,
+      "longitude": 80.53,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_nawalapitiya",
+      "latitude": 7.0505,
+      "longitude": 80.53,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_badulla",
+      "latitude": 6.9934,
+      "longitude": 81.055,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_badulla",
+      "latitude": 6.9934,
+      "longitude": 81.055,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_badulla",
+      "latitude": 6.9934,
+      "longitude": 81.055,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_badulla",
+      "latitude": 6.9934,
+      "longitude": 81.055,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_badulla",
+      "latitude": 6.9934,
+      "longitude": 81.055,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_badulla",
+      "latitude": 6.9934,
+      "longitude": 81.055,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ella",
+      "latitude": 6.8667,
+      "longitude": 81.0466,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_ella",
+      "latitude": 6.8667,
+      "longitude": 81.0466,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ella",
+      "latitude": 6.8667,
+      "longitude": 81.0466,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ella",
+      "latitude": 6.8667,
+      "longitude": 81.0466,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ella",
+      "latitude": 6.8667,
+      "longitude": 81.0466,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_ella",
+      "latitude": 6.8667,
+      "longitude": 81.0466,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_welimada",
+      "latitude": 6.902,
+      "longitude": 80.9223,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_welimada",
+      "latitude": 6.902,
+      "longitude": 80.9223,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_welimada",
+      "latitude": 6.902,
+      "longitude": 80.9223,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_welimada",
+      "latitude": 6.902,
+      "longitude": 80.9223,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_welimada",
+      "latitude": 6.902,
+      "longitude": 80.9223,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_welimada",
+      "latitude": 6.902,
+      "longitude": 80.9223,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_bandarawela",
+      "latitude": 6.8259,
+      "longitude": 80.9982,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_bandarawela",
+      "latitude": 6.8259,
+      "longitude": 80.9982,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_bandarawela",
+      "latitude": 6.8259,
+      "longitude": 80.9982,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_bandarawela",
+      "latitude": 6.8259,
+      "longitude": 80.9982,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_bandarawela",
+      "latitude": 6.8259,
+      "longitude": 80.9982,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_bandarawela",
+      "latitude": 6.8259,
+      "longitude": 80.9982,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_haputale",
+      "latitude": 6.7681,
+      "longitude": 80.959,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_haputale",
+      "latitude": 6.7681,
+      "longitude": 80.959,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_haputale",
+      "latitude": 6.7681,
+      "longitude": 80.959,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_haputale",
+      "latitude": 6.7681,
+      "longitude": 80.959,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_haputale",
+      "latitude": 6.7681,
+      "longitude": 80.959,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_haputale",
+      "latitude": 6.7681,
+      "longitude": 80.959,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_hatton",
+      "latitude": 6.8916,
+      "longitude": 80.5955,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_hatton",
+      "latitude": 6.8916,
+      "longitude": 80.5955,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_hatton",
+      "latitude": 6.8916,
+      "longitude": 80.5955,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_hatton",
+      "latitude": 6.8916,
+      "longitude": 80.5955,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_hatton",
+      "latitude": 6.8916,
+      "longitude": 80.5955,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_hatton",
+      "latitude": 6.8916,
+      "longitude": 80.5955,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_diyatalawa",
+      "latitude": 6.807,
+      "longitude": 80.9595,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_diyatalawa",
+      "latitude": 6.807,
+      "longitude": 80.9595,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_diyatalawa",
+      "latitude": 6.807,
+      "longitude": 80.9595,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_diyatalawa",
+      "latitude": 6.807,
+      "longitude": 80.9595,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_diyatalawa",
+      "latitude": 6.807,
+      "longitude": 80.9595,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_diyatalawa",
+      "latitude": 6.807,
+      "longitude": 80.9595,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_nuwara_eliya",
+      "latitude": 6.9497,
+      "longitude": 80.7891,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_nuwara_eliya",
+      "latitude": 6.9497,
+      "longitude": 80.7891,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_nuwara_eliya",
+      "latitude": 6.9497,
+      "longitude": 80.7891,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_nuwara_eliya",
+      "latitude": 6.9497,
+      "longitude": 80.7891,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_nuwara_eliya",
+      "latitude": 6.9497,
+      "longitude": 80.7891,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_nuwara_eliya",
+      "latitude": 6.9497,
+      "longitude": 80.7891,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ambewela",
+      "latitude": 6.8992,
+      "longitude": 80.8028,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_ambewela",
+      "latitude": 6.8992,
+      "longitude": 80.8028,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ambewela",
+      "latitude": 6.8992,
+      "longitude": 80.8028,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ambewela",
+      "latitude": 6.8992,
+      "longitude": 80.8028,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_ambewela",
+      "latitude": 6.8992,
+      "longitude": 80.8028,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_ambewela",
+      "latitude": 6.8992,
+      "longitude": 80.8028,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_horton_plains",
+      "latitude": 6.8021,
+      "longitude": 80.807,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_horton_plains",
+      "latitude": 6.8021,
+      "longitude": 80.807,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_horton_plains",
+      "latitude": 6.8021,
+      "longitude": 80.807,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_horton_plains",
+      "latitude": 6.8021,
+      "longitude": 80.807,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_horton_plains",
+      "latitude": 6.8021,
+      "longitude": 80.807,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_horton_plains",
+      "latitude": 6.8021,
+      "longitude": 80.807,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_pidurutalagala",
+      "latitude": 7.0008,
+      "longitude": 80.7733,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_pidurutalagala",
+      "latitude": 7.0008,
+      "longitude": 80.7733,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_pidurutalagala",
+      "latitude": 7.0008,
+      "longitude": 80.7733,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_pidurutalagala",
+      "latitude": 7.0008,
+      "longitude": 80.7733,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_pidurutalagala",
+      "latitude": 7.0008,
+      "longitude": 80.7733,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_pidurutalagala",
+      "latitude": 7.0008,
+      "longitude": 80.7733,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_sri_pada",
+      "latitude": 6.8096,
+      "longitude": 80.4994,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_sri_pada",
+      "latitude": 6.8096,
+      "longitude": 80.4994,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_sri_pada",
+      "latitude": 6.8096,
+      "longitude": 80.4994,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_sri_pada",
+      "latitude": 6.8096,
+      "longitude": 80.4994,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "lk_sri_pada",
+      "latitude": 6.8096,
+      "longitude": 80.4994,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "lk_sri_pada",
+      "latitude": 6.8096,
+      "longitude": 80.4994,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_chennai",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_chennai",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_chennai",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_chennai",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_chennai",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_chennai",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_thoothukudi",
+      "latitude": 8.7642,
+      "longitude": 78.1348,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_thoothukudi",
+      "latitude": 8.7642,
+      "longitude": 78.1348,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_thoothukudi",
+      "latitude": 8.7642,
+      "longitude": 78.1348,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_thoothukudi",
+      "latitude": 8.7642,
+      "longitude": 78.1348,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_thoothukudi",
+      "latitude": 8.7642,
+      "longitude": 78.1348,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_thoothukudi",
+      "latitude": 8.7642,
+      "longitude": 78.1348,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kanyakumari",
+      "latitude": 8.0883,
+      "longitude": 77.5385,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_kanyakumari",
+      "latitude": 8.0883,
+      "longitude": 77.5385,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kanyakumari",
+      "latitude": 8.0883,
+      "longitude": 77.5385,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kanyakumari",
+      "latitude": 8.0883,
+      "longitude": 77.5385,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kanyakumari",
+      "latitude": 8.0883,
+      "longitude": 77.5385,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_kanyakumari",
+      "latitude": 8.0883,
+      "longitude": 77.5385,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_thiruvananthapuram",
+      "latitude": 8.5241,
+      "longitude": 76.9366,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_thiruvananthapuram",
+      "latitude": 8.5241,
+      "longitude": 76.9366,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_thiruvananthapuram",
+      "latitude": 8.5241,
+      "longitude": 76.9366,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_thiruvananthapuram",
+      "latitude": 8.5241,
+      "longitude": 76.9366,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_thiruvananthapuram",
+      "latitude": 8.5241,
+      "longitude": 76.9366,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_thiruvananthapuram",
+      "latitude": 8.5241,
+      "longitude": 76.9366,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kochi",
+      "latitude": 9.9312,
+      "longitude": 76.2673,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_kochi",
+      "latitude": 9.9312,
+      "longitude": 76.2673,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kochi",
+      "latitude": 9.9312,
+      "longitude": 76.2673,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kochi",
+      "latitude": 9.9312,
+      "longitude": 76.2673,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kochi",
+      "latitude": 9.9312,
+      "longitude": 76.2673,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_kochi",
+      "latitude": 9.9312,
+      "longitude": 76.2673,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_madurai",
+      "latitude": 9.9252,
+      "longitude": 78.1198,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_madurai",
+      "latitude": 9.9252,
+      "longitude": 78.1198,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_madurai",
+      "latitude": 9.9252,
+      "longitude": 78.1198,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_madurai",
+      "latitude": 9.9252,
+      "longitude": 78.1198,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_madurai",
+      "latitude": 9.9252,
+      "longitude": 78.1198,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_madurai",
+      "latitude": 9.9252,
+      "longitude": 78.1198,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_coimbatore",
+      "latitude": 11.0168,
+      "longitude": 76.9558,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_coimbatore",
+      "latitude": 11.0168,
+      "longitude": 76.9558,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_coimbatore",
+      "latitude": 11.0168,
+      "longitude": 76.9558,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_coimbatore",
+      "latitude": 11.0168,
+      "longitude": 76.9558,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_coimbatore",
+      "latitude": 11.0168,
+      "longitude": 76.9558,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_coimbatore",
+      "latitude": 11.0168,
+      "longitude": 76.9558,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_bengaluru",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_bengaluru",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_bengaluru",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_bengaluru",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_bengaluru",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_bengaluru",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_mysuru",
+      "latitude": 12.2958,
+      "longitude": 76.6394,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_mysuru",
+      "latitude": 12.2958,
+      "longitude": 76.6394,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_mysuru",
+      "latitude": 12.2958,
+      "longitude": 76.6394,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_mysuru",
+      "latitude": 12.2958,
+      "longitude": 76.6394,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_mysuru",
+      "latitude": 12.2958,
+      "longitude": 76.6394,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_mysuru",
+      "latitude": 12.2958,
+      "longitude": 76.6394,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_munnar",
+      "latitude": 10.0889,
+      "longitude": 77.0595,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_munnar",
+      "latitude": 10.0889,
+      "longitude": 77.0595,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_munnar",
+      "latitude": 10.0889,
+      "longitude": 77.0595,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_munnar",
+      "latitude": 10.0889,
+      "longitude": 77.0595,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_munnar",
+      "latitude": 10.0889,
+      "longitude": 77.0595,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_munnar",
+      "latitude": 10.0889,
+      "longitude": 77.0595,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kodaikanal",
+      "latitude": 10.2381,
+      "longitude": 77.4892,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_kodaikanal",
+      "latitude": 10.2381,
+      "longitude": 77.4892,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kodaikanal",
+      "latitude": 10.2381,
+      "longitude": 77.4892,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kodaikanal",
+      "latitude": 10.2381,
+      "longitude": 77.4892,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_kodaikanal",
+      "latitude": 10.2381,
+      "longitude": 77.4892,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_kodaikanal",
+      "latitude": 10.2381,
+      "longitude": 77.4892,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_ooty",
+      "latitude": 11.4102,
+      "longitude": 76.695,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_ooty",
+      "latitude": 11.4102,
+      "longitude": 76.695,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_ooty",
+      "latitude": 11.4102,
+      "longitude": 76.695,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_ooty",
+      "latitude": 11.4102,
+      "longitude": 76.695,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_ooty",
+      "latitude": 11.4102,
+      "longitude": 76.695,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_ooty",
+      "latitude": 11.4102,
+      "longitude": 76.695,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_doddabetta",
+      "latitude": 11.4016,
+      "longitude": 76.7358,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_doddabetta",
+      "latitude": 11.4016,
+      "longitude": 76.7358,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_doddabetta",
+      "latitude": 11.4016,
+      "longitude": 76.7358,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_doddabetta",
+      "latitude": 11.4016,
+      "longitude": 76.7358,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_doddabetta",
+      "latitude": 11.4016,
+      "longitude": 76.7358,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_doddabetta",
+      "latitude": 11.4016,
+      "longitude": 76.7358,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_anamudi",
+      "latitude": 10.169,
+      "longitude": 77.0606,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_anamudi",
+      "latitude": 10.169,
+      "longitude": 77.0606,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_anamudi",
+      "latitude": 10.169,
+      "longitude": 77.0606,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_anamudi",
+      "latitude": 10.169,
+      "longitude": 77.0606,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_anamudi",
+      "latitude": 10.169,
+      "longitude": 77.0606,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_anamudi",
+      "latitude": 10.169,
+      "longitude": 77.0606,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_shillong",
+      "latitude": 25.5788,
+      "longitude": 91.8933,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_shillong",
+      "latitude": 25.5788,
+      "longitude": 91.8933,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_shillong",
+      "latitude": 25.5788,
+      "longitude": 91.8933,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_shillong",
+      "latitude": 25.5788,
+      "longitude": 91.8933,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_shillong",
+      "latitude": 25.5788,
+      "longitude": 91.8933,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_shillong",
+      "latitude": 25.5788,
+      "longitude": 91.8933,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_darjeeling",
+      "latitude": 27.041,
+      "longitude": 88.2663,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_darjeeling",
+      "latitude": 27.041,
+      "longitude": 88.2663,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_darjeeling",
+      "latitude": 27.041,
+      "longitude": 88.2663,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_darjeeling",
+      "latitude": 27.041,
+      "longitude": 88.2663,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_darjeeling",
+      "latitude": 27.041,
+      "longitude": 88.2663,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_darjeeling",
+      "latitude": 27.041,
+      "longitude": 88.2663,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_gangtok",
+      "latitude": 27.3389,
+      "longitude": 88.6065,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_gangtok",
+      "latitude": 27.3389,
+      "longitude": 88.6065,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_gangtok",
+      "latitude": 27.3389,
+      "longitude": 88.6065,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_gangtok",
+      "latitude": 27.3389,
+      "longitude": 88.6065,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_gangtok",
+      "latitude": 27.3389,
+      "longitude": 88.6065,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_gangtok",
+      "latitude": 27.3389,
+      "longitude": 88.6065,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_tawang",
+      "latitude": 27.5861,
+      "longitude": 91.8594,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_tawang",
+      "latitude": 27.5861,
+      "longitude": 91.8594,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_tawang",
+      "latitude": 27.5861,
+      "longitude": 91.8594,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_tawang",
+      "latitude": 27.5861,
+      "longitude": 91.8594,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_tawang",
+      "latitude": 27.5861,
+      "longitude": 91.8594,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_tawang",
+      "latitude": 27.5861,
+      "longitude": 91.8594,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_lachen",
+      "latitude": 27.7287,
+      "longitude": 88.5565,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_lachen",
+      "latitude": 27.7287,
+      "longitude": 88.5565,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_lachen",
+      "latitude": 27.7287,
+      "longitude": 88.5565,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_lachen",
+      "latitude": 27.7287,
+      "longitude": 88.5565,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_lachen",
+      "latitude": 27.7287,
+      "longitude": 88.5565,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_lachen",
+      "latitude": 27.7287,
+      "longitude": 88.5565,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_nathu_la",
+      "latitude": 27.3868,
+      "longitude": 88.8308,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_nathu_la",
+      "latitude": 27.3868,
+      "longitude": 88.8308,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_nathu_la",
+      "latitude": 27.3868,
+      "longitude": 88.8308,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_nathu_la",
+      "latitude": 27.3868,
+      "longitude": 88.8308,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "in_nathu_la",
+      "latitude": 27.3868,
+      "longitude": 88.8308,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "in_nathu_la",
+      "latitude": 27.3868,
+      "longitude": 88.8308,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_biratnagar",
+      "latitude": 26.4525,
+      "longitude": 87.2718,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_biratnagar",
+      "latitude": 26.4525,
+      "longitude": 87.2718,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_biratnagar",
+      "latitude": 26.4525,
+      "longitude": 87.2718,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_biratnagar",
+      "latitude": 26.4525,
+      "longitude": 87.2718,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_biratnagar",
+      "latitude": 26.4525,
+      "longitude": 87.2718,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_biratnagar",
+      "latitude": 26.4525,
+      "longitude": 87.2718,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_janakpur",
+      "latitude": 26.7271,
+      "longitude": 85.9407,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_janakpur",
+      "latitude": 26.7271,
+      "longitude": 85.9407,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_janakpur",
+      "latitude": 26.7271,
+      "longitude": 85.9407,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_janakpur",
+      "latitude": 26.7271,
+      "longitude": 85.9407,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_janakpur",
+      "latitude": 26.7271,
+      "longitude": 85.9407,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_janakpur",
+      "latitude": 26.7271,
+      "longitude": 85.9407,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_bharatpur",
+      "latitude": 27.6833,
+      "longitude": 84.4333,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_bharatpur",
+      "latitude": 27.6833,
+      "longitude": 84.4333,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_bharatpur",
+      "latitude": 27.6833,
+      "longitude": 84.4333,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_bharatpur",
+      "latitude": 27.6833,
+      "longitude": 84.4333,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_bharatpur",
+      "latitude": 27.6833,
+      "longitude": 84.4333,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_bharatpur",
+      "latitude": 27.6833,
+      "longitude": 84.4333,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_pokhara",
+      "latitude": 28.2096,
+      "longitude": 83.9856,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_pokhara",
+      "latitude": 28.2096,
+      "longitude": 83.9856,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_pokhara",
+      "latitude": 28.2096,
+      "longitude": 83.9856,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_pokhara",
+      "latitude": 28.2096,
+      "longitude": 83.9856,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_pokhara",
+      "latitude": 28.2096,
+      "longitude": 83.9856,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_pokhara",
+      "latitude": 28.2096,
+      "longitude": 83.9856,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_kathmandu",
+      "latitude": 27.7172,
+      "longitude": 85.324,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_kathmandu",
+      "latitude": 27.7172,
+      "longitude": 85.324,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_kathmandu",
+      "latitude": 27.7172,
+      "longitude": 85.324,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_kathmandu",
+      "latitude": 27.7172,
+      "longitude": 85.324,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_kathmandu",
+      "latitude": 27.7172,
+      "longitude": 85.324,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_kathmandu",
+      "latitude": 27.7172,
+      "longitude": 85.324,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_dhulikhel",
+      "latitude": 27.6221,
+      "longitude": 85.5421,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_dhulikhel",
+      "latitude": 27.6221,
+      "longitude": 85.5421,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_dhulikhel",
+      "latitude": 27.6221,
+      "longitude": 85.5421,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_dhulikhel",
+      "latitude": 27.6221,
+      "longitude": 85.5421,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_dhulikhel",
+      "latitude": 27.6221,
+      "longitude": 85.5421,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_dhulikhel",
+      "latitude": 27.6221,
+      "longitude": 85.5421,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_jomsom",
+      "latitude": 28.7806,
+      "longitude": 83.7278,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_jomsom",
+      "latitude": 28.7806,
+      "longitude": 83.7278,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_jomsom",
+      "latitude": 28.7806,
+      "longitude": 83.7278,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_jomsom",
+      "latitude": 28.7806,
+      "longitude": 83.7278,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_jomsom",
+      "latitude": 28.7806,
+      "longitude": 83.7278,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_jomsom",
+      "latitude": 28.7806,
+      "longitude": 83.7278,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_lukla",
+      "latitude": 27.6869,
+      "longitude": 86.7297,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_lukla",
+      "latitude": 27.6869,
+      "longitude": 86.7297,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_lukla",
+      "latitude": 27.6869,
+      "longitude": 86.7297,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_lukla",
+      "latitude": 27.6869,
+      "longitude": 86.7297,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_lukla",
+      "latitude": 27.6869,
+      "longitude": 86.7297,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_lukla",
+      "latitude": 27.6869,
+      "longitude": 86.7297,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_namche",
+      "latitude": 27.8053,
+      "longitude": 86.714,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_namche",
+      "latitude": 27.8053,
+      "longitude": 86.714,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_namche",
+      "latitude": 27.8053,
+      "longitude": 86.714,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_namche",
+      "latitude": 27.8053,
+      "longitude": 86.714,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_namche",
+      "latitude": 27.8053,
+      "longitude": 86.714,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_namche",
+      "latitude": 27.8053,
+      "longitude": 86.714,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_dingboche",
+      "latitude": 27.892,
+      "longitude": 86.8314,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_dingboche",
+      "latitude": 27.892,
+      "longitude": 86.8314,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_dingboche",
+      "latitude": 27.892,
+      "longitude": 86.8314,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_dingboche",
+      "latitude": 27.892,
+      "longitude": 86.8314,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "np_dingboche",
+      "latitude": 27.892,
+      "longitude": 86.8314,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "np_dingboche",
+      "latitude": 27.892,
+      "longitude": 86.8314,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_phuentsholing",
+      "latitude": 26.8516,
+      "longitude": 89.3884,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bt_phuentsholing",
+      "latitude": 26.8516,
+      "longitude": 89.3884,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_phuentsholing",
+      "latitude": 26.8516,
+      "longitude": 89.3884,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_phuentsholing",
+      "latitude": 26.8516,
+      "longitude": 89.3884,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_phuentsholing",
+      "latitude": 26.8516,
+      "longitude": 89.3884,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bt_phuentsholing",
+      "latitude": 26.8516,
+      "longitude": 89.3884,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_punakha",
+      "latitude": 27.591,
+      "longitude": 89.8774,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bt_punakha",
+      "latitude": 27.591,
+      "longitude": 89.8774,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_punakha",
+      "latitude": 27.591,
+      "longitude": 89.8774,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_punakha",
+      "latitude": 27.591,
+      "longitude": 89.8774,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_punakha",
+      "latitude": 27.591,
+      "longitude": 89.8774,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bt_punakha",
+      "latitude": 27.591,
+      "longitude": 89.8774,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_paro",
+      "latitude": 27.4287,
+      "longitude": 89.4164,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bt_paro",
+      "latitude": 27.4287,
+      "longitude": 89.4164,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_paro",
+      "latitude": 27.4287,
+      "longitude": 89.4164,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_paro",
+      "latitude": 27.4287,
+      "longitude": 89.4164,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_paro",
+      "latitude": 27.4287,
+      "longitude": 89.4164,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bt_paro",
+      "latitude": 27.4287,
+      "longitude": 89.4164,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_thimphu",
+      "latitude": 27.4728,
+      "longitude": 89.6393,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bt_thimphu",
+      "latitude": 27.4728,
+      "longitude": 89.6393,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_thimphu",
+      "latitude": 27.4728,
+      "longitude": 89.6393,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_thimphu",
+      "latitude": 27.4728,
+      "longitude": 89.6393,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_thimphu",
+      "latitude": 27.4728,
+      "longitude": 89.6393,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bt_thimphu",
+      "latitude": 27.4728,
+      "longitude": 89.6393,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_chele_la",
+      "latitude": 27.3697,
+      "longitude": 89.3461,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bt_chele_la",
+      "latitude": 27.3697,
+      "longitude": 89.3461,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_chele_la",
+      "latitude": 27.3697,
+      "longitude": 89.3461,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_chele_la",
+      "latitude": 27.3697,
+      "longitude": 89.3461,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bt_chele_la",
+      "latitude": 27.3697,
+      "longitude": 89.3461,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bt_chele_la",
+      "latitude": 27.3697,
+      "longitude": 89.3461,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_dhaka",
+      "latitude": 23.8103,
+      "longitude": 90.4125,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bd_dhaka",
+      "latitude": 23.8103,
+      "longitude": 90.4125,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_dhaka",
+      "latitude": 23.8103,
+      "longitude": 90.4125,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_dhaka",
+      "latitude": 23.8103,
+      "longitude": 90.4125,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_dhaka",
+      "latitude": 23.8103,
+      "longitude": 90.4125,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bd_dhaka",
+      "latitude": 23.8103,
+      "longitude": 90.4125,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_chattogram",
+      "latitude": 22.3569,
+      "longitude": 91.7832,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bd_chattogram",
+      "latitude": 22.3569,
+      "longitude": 91.7832,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_chattogram",
+      "latitude": 22.3569,
+      "longitude": 91.7832,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_chattogram",
+      "latitude": 22.3569,
+      "longitude": 91.7832,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_chattogram",
+      "latitude": 22.3569,
+      "longitude": 91.7832,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bd_chattogram",
+      "latitude": 22.3569,
+      "longitude": 91.7832,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_sylhet",
+      "latitude": 24.8949,
+      "longitude": 91.8687,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bd_sylhet",
+      "latitude": 24.8949,
+      "longitude": 91.8687,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_sylhet",
+      "latitude": 24.8949,
+      "longitude": 91.8687,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_sylhet",
+      "latitude": 24.8949,
+      "longitude": 91.8687,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_sylhet",
+      "latitude": 24.8949,
+      "longitude": 91.8687,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bd_sylhet",
+      "latitude": 24.8949,
+      "longitude": 91.8687,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_rangamati",
+      "latitude": 22.7324,
+      "longitude": 92.2985,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bd_rangamati",
+      "latitude": 22.7324,
+      "longitude": 92.2985,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_rangamati",
+      "latitude": 22.7324,
+      "longitude": 92.2985,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_rangamati",
+      "latitude": 22.7324,
+      "longitude": 92.2985,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_rangamati",
+      "latitude": 22.7324,
+      "longitude": 92.2985,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bd_rangamati",
+      "latitude": 22.7324,
+      "longitude": 92.2985,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_sajek",
+      "latitude": 23.3819,
+      "longitude": 92.2938,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bd_sajek",
+      "latitude": 23.3819,
+      "longitude": 92.2938,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_sajek",
+      "latitude": 23.3819,
+      "longitude": 92.2938,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_sajek",
+      "latitude": 23.3819,
+      "longitude": 92.2938,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "bd_sajek",
+      "latitude": 23.3819,
+      "longitude": 92.2938,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "bd_sajek",
+      "latitude": 23.3819,
+      "longitude": 92.2938,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_yangon",
+      "latitude": 16.8409,
+      "longitude": 96.1735,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "mm_yangon",
+      "latitude": 16.8409,
+      "longitude": 96.1735,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_yangon",
+      "latitude": 16.8409,
+      "longitude": 96.1735,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_yangon",
+      "latitude": 16.8409,
+      "longitude": 96.1735,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_yangon",
+      "latitude": 16.8409,
+      "longitude": 96.1735,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "mm_yangon",
+      "latitude": 16.8409,
+      "longitude": 96.1735,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_mandalay",
+      "latitude": 21.9588,
+      "longitude": 96.0891,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "mm_mandalay",
+      "latitude": 21.9588,
+      "longitude": 96.0891,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_mandalay",
+      "latitude": 21.9588,
+      "longitude": 96.0891,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_mandalay",
+      "latitude": 21.9588,
+      "longitude": 96.0891,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_mandalay",
+      "latitude": 21.9588,
+      "longitude": 96.0891,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "mm_mandalay",
+      "latitude": 21.9588,
+      "longitude": 96.0891,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_kalaw",
+      "latitude": 20.6333,
+      "longitude": 96.5667,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "mm_kalaw",
+      "latitude": 20.6333,
+      "longitude": 96.5667,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_kalaw",
+      "latitude": 20.6333,
+      "longitude": 96.5667,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_kalaw",
+      "latitude": 20.6333,
+      "longitude": 96.5667,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_kalaw",
+      "latitude": 20.6333,
+      "longitude": 96.5667,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "mm_kalaw",
+      "latitude": 20.6333,
+      "longitude": 96.5667,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_taunggyi",
+      "latitude": 20.7888,
+      "longitude": 97.0337,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "mm_taunggyi",
+      "latitude": 20.7888,
+      "longitude": 97.0337,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_taunggyi",
+      "latitude": 20.7888,
+      "longitude": 97.0337,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_taunggyi",
+      "latitude": 20.7888,
+      "longitude": 97.0337,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_taunggyi",
+      "latitude": 20.7888,
+      "longitude": 97.0337,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "mm_taunggyi",
+      "latitude": 20.7888,
+      "longitude": 97.0337,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_hakha",
+      "latitude": 22.6445,
+      "longitude": 93.6108,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "mm_hakha",
+      "latitude": 22.6445,
+      "longitude": 93.6108,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_hakha",
+      "latitude": 22.6445,
+      "longitude": 93.6108,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_hakha",
+      "latitude": 22.6445,
+      "longitude": 93.6108,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "mm_hakha",
+      "latitude": 22.6445,
+      "longitude": 93.6108,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "mm_hakha",
+      "latitude": 22.6445,
+      "longitude": 93.6108,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_bangkok",
+      "latitude": 13.7563,
+      "longitude": 100.5018,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_bangkok",
+      "latitude": 13.7563,
+      "longitude": 100.5018,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_bangkok",
+      "latitude": 13.7563,
+      "longitude": 100.5018,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_bangkok",
+      "latitude": 13.7563,
+      "longitude": 100.5018,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_bangkok",
+      "latitude": 13.7563,
+      "longitude": 100.5018,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_bangkok",
+      "latitude": 13.7563,
+      "longitude": 100.5018,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_phuket",
+      "latitude": 7.8804,
+      "longitude": 98.3923,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_phuket",
+      "latitude": 7.8804,
+      "longitude": 98.3923,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_phuket",
+      "latitude": 7.8804,
+      "longitude": 98.3923,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_phuket",
+      "latitude": 7.8804,
+      "longitude": 98.3923,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_phuket",
+      "latitude": 7.8804,
+      "longitude": 98.3923,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_phuket",
+      "latitude": 7.8804,
+      "longitude": 98.3923,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_chiang_mai",
+      "latitude": 18.7883,
+      "longitude": 98.9853,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_chiang_mai",
+      "latitude": 18.7883,
+      "longitude": 98.9853,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_chiang_mai",
+      "latitude": 18.7883,
+      "longitude": 98.9853,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_chiang_mai",
+      "latitude": 18.7883,
+      "longitude": 98.9853,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_chiang_mai",
+      "latitude": 18.7883,
+      "longitude": 98.9853,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_chiang_mai",
+      "latitude": 18.7883,
+      "longitude": 98.9853,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_chiang_rai",
+      "latitude": 19.9105,
+      "longitude": 99.8406,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_chiang_rai",
+      "latitude": 19.9105,
+      "longitude": 99.8406,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_chiang_rai",
+      "latitude": 19.9105,
+      "longitude": 99.8406,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_chiang_rai",
+      "latitude": 19.9105,
+      "longitude": 99.8406,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_chiang_rai",
+      "latitude": 19.9105,
+      "longitude": 99.8406,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_chiang_rai",
+      "latitude": 19.9105,
+      "longitude": 99.8406,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_mae_hong_son",
+      "latitude": 19.302,
+      "longitude": 97.9654,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_mae_hong_son",
+      "latitude": 19.302,
+      "longitude": 97.9654,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_mae_hong_son",
+      "latitude": 19.302,
+      "longitude": 97.9654,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_mae_hong_son",
+      "latitude": 19.302,
+      "longitude": 97.9654,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_mae_hong_son",
+      "latitude": 19.302,
+      "longitude": 97.9654,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_mae_hong_son",
+      "latitude": 19.302,
+      "longitude": 97.9654,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_khao_kho",
+      "latitude": 16.6346,
+      "longitude": 100.995,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_khao_kho",
+      "latitude": 16.6346,
+      "longitude": 100.995,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_khao_kho",
+      "latitude": 16.6346,
+      "longitude": 100.995,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_khao_kho",
+      "latitude": 16.6346,
+      "longitude": 100.995,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_khao_kho",
+      "latitude": 16.6346,
+      "longitude": 100.995,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_khao_kho",
+      "latitude": 16.6346,
+      "longitude": 100.995,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_doi_inthanon",
+      "latitude": 18.5883,
+      "longitude": 98.4867,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_doi_inthanon",
+      "latitude": 18.5883,
+      "longitude": 98.4867,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_doi_inthanon",
+      "latitude": 18.5883,
+      "longitude": 98.4867,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_doi_inthanon",
+      "latitude": 18.5883,
+      "longitude": 98.4867,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "th_doi_inthanon",
+      "latitude": 18.5883,
+      "longitude": 98.4867,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "th_doi_inthanon",
+      "latitude": 18.5883,
+      "longitude": 98.4867,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_hanoi",
+      "latitude": 21.0278,
+      "longitude": 105.8342,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "vn_hanoi",
+      "latitude": 21.0278,
+      "longitude": 105.8342,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_hanoi",
+      "latitude": 21.0278,
+      "longitude": 105.8342,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_hanoi",
+      "latitude": 21.0278,
+      "longitude": 105.8342,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_hanoi",
+      "latitude": 21.0278,
+      "longitude": 105.8342,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "vn_hanoi",
+      "latitude": 21.0278,
+      "longitude": 105.8342,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_da_nang",
+      "latitude": 16.0544,
+      "longitude": 108.2022,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "vn_da_nang",
+      "latitude": 16.0544,
+      "longitude": 108.2022,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_da_nang",
+      "latitude": 16.0544,
+      "longitude": 108.2022,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_da_nang",
+      "latitude": 16.0544,
+      "longitude": 108.2022,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_da_nang",
+      "latitude": 16.0544,
+      "longitude": 108.2022,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "vn_da_nang",
+      "latitude": 16.0544,
+      "longitude": 108.2022,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_da_lat",
+      "latitude": 11.9404,
+      "longitude": 108.4583,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "vn_da_lat",
+      "latitude": 11.9404,
+      "longitude": 108.4583,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_da_lat",
+      "latitude": 11.9404,
+      "longitude": 108.4583,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_da_lat",
+      "latitude": 11.9404,
+      "longitude": 108.4583,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_da_lat",
+      "latitude": 11.9404,
+      "longitude": 108.4583,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "vn_da_lat",
+      "latitude": 11.9404,
+      "longitude": 108.4583,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_sa_pa",
+      "latitude": 22.3364,
+      "longitude": 103.8438,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "vn_sa_pa",
+      "latitude": 22.3364,
+      "longitude": 103.8438,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_sa_pa",
+      "latitude": 22.3364,
+      "longitude": 103.8438,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_sa_pa",
+      "latitude": 22.3364,
+      "longitude": 103.8438,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_sa_pa",
+      "latitude": 22.3364,
+      "longitude": 103.8438,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "vn_sa_pa",
+      "latitude": 22.3364,
+      "longitude": 103.8438,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_fansipan",
+      "latitude": 22.3033,
+      "longitude": 103.775,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "vn_fansipan",
+      "latitude": 22.3033,
+      "longitude": 103.775,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_fansipan",
+      "latitude": 22.3033,
+      "longitude": 103.775,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_fansipan",
+      "latitude": 22.3033,
+      "longitude": 103.775,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "vn_fansipan",
+      "latitude": 22.3033,
+      "longitude": 103.775,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "vn_fansipan",
+      "latitude": 22.3033,
+      "longitude": 103.775,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_vientiane",
+      "latitude": 17.9757,
+      "longitude": 102.6331,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "la_vientiane",
+      "latitude": 17.9757,
+      "longitude": 102.6331,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_vientiane",
+      "latitude": 17.9757,
+      "longitude": 102.6331,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_vientiane",
+      "latitude": 17.9757,
+      "longitude": 102.6331,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_vientiane",
+      "latitude": 17.9757,
+      "longitude": 102.6331,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "la_vientiane",
+      "latitude": 17.9757,
+      "longitude": 102.6331,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_luang_prabang",
+      "latitude": 19.8833,
+      "longitude": 102.1333,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "la_luang_prabang",
+      "latitude": 19.8833,
+      "longitude": 102.1333,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_luang_prabang",
+      "latitude": 19.8833,
+      "longitude": 102.1333,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_luang_prabang",
+      "latitude": 19.8833,
+      "longitude": 102.1333,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_luang_prabang",
+      "latitude": 19.8833,
+      "longitude": 102.1333,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "la_luang_prabang",
+      "latitude": 19.8833,
+      "longitude": 102.1333,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_phonsavan",
+      "latitude": 19.45,
+      "longitude": 103.2167,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "la_phonsavan",
+      "latitude": 19.45,
+      "longitude": 103.2167,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_phonsavan",
+      "latitude": 19.45,
+      "longitude": 103.2167,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_phonsavan",
+      "latitude": 19.45,
+      "longitude": 103.2167,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_phonsavan",
+      "latitude": 19.45,
+      "longitude": 103.2167,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "la_phonsavan",
+      "latitude": 19.45,
+      "longitude": 103.2167,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_paksong",
+      "latitude": 15.1817,
+      "longitude": 106.23,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "la_paksong",
+      "latitude": 15.1817,
+      "longitude": 106.23,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_paksong",
+      "latitude": 15.1817,
+      "longitude": 106.23,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_paksong",
+      "latitude": 15.1817,
+      "longitude": 106.23,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "la_paksong",
+      "latitude": 15.1817,
+      "longitude": 106.23,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "la_paksong",
+      "latitude": 15.1817,
+      "longitude": 106.23,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_phnom_penh",
+      "latitude": 11.5564,
+      "longitude": 104.9282,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "kh_phnom_penh",
+      "latitude": 11.5564,
+      "longitude": 104.9282,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_phnom_penh",
+      "latitude": 11.5564,
+      "longitude": 104.9282,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_phnom_penh",
+      "latitude": 11.5564,
+      "longitude": 104.9282,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_phnom_penh",
+      "latitude": 11.5564,
+      "longitude": 104.9282,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "kh_phnom_penh",
+      "latitude": 11.5564,
+      "longitude": 104.9282,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_sen_monorom",
+      "latitude": 12.4558,
+      "longitude": 107.1881,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "kh_sen_monorom",
+      "latitude": 12.4558,
+      "longitude": 107.1881,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_sen_monorom",
+      "latitude": 12.4558,
+      "longitude": 107.1881,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_sen_monorom",
+      "latitude": 12.4558,
+      "longitude": 107.1881,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_sen_monorom",
+      "latitude": 12.4558,
+      "longitude": 107.1881,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "kh_sen_monorom",
+      "latitude": 12.4558,
+      "longitude": 107.1881,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_bokor",
+      "latitude": 10.628,
+      "longitude": 104.028,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "kh_bokor",
+      "latitude": 10.628,
+      "longitude": 104.028,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_bokor",
+      "latitude": 10.628,
+      "longitude": 104.028,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_bokor",
+      "latitude": 10.628,
+      "longitude": 104.028,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "kh_bokor",
+      "latitude": 10.628,
+      "longitude": 104.028,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "kh_bokor",
+      "latitude": 10.628,
+      "longitude": 104.028,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_george_town",
+      "latitude": 5.4141,
+      "longitude": 100.3288,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "my_george_town",
+      "latitude": 5.4141,
+      "longitude": 100.3288,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_george_town",
+      "latitude": 5.4141,
+      "longitude": 100.3288,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_george_town",
+      "latitude": 5.4141,
+      "longitude": 100.3288,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_george_town",
+      "latitude": 5.4141,
+      "longitude": 100.3288,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "my_george_town",
+      "latitude": 5.4141,
+      "longitude": 100.3288,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_cameron_highlands",
+      "latitude": 4.47,
+      "longitude": 101.376,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "my_cameron_highlands",
+      "latitude": 4.47,
+      "longitude": 101.376,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_cameron_highlands",
+      "latitude": 4.47,
+      "longitude": 101.376,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_cameron_highlands",
+      "latitude": 4.47,
+      "longitude": 101.376,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_cameron_highlands",
+      "latitude": 4.47,
+      "longitude": 101.376,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "my_cameron_highlands",
+      "latitude": 4.47,
+      "longitude": 101.376,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_genting",
+      "latitude": 3.4239,
+      "longitude": 101.7932,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "my_genting",
+      "latitude": 3.4239,
+      "longitude": 101.7932,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_genting",
+      "latitude": 3.4239,
+      "longitude": 101.7932,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_genting",
+      "latitude": 3.4239,
+      "longitude": 101.7932,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "my_genting",
+      "latitude": 3.4239,
+      "longitude": 101.7932,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "my_genting",
+      "latitude": 3.4239,
+      "longitude": 101.7932,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "id_medan",
+      "latitude": 3.5952,
+      "longitude": 98.6722,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "id_medan",
+      "latitude": 3.5952,
+      "longitude": 98.6722,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "id_medan",
+      "latitude": 3.5952,
+      "longitude": 98.6722,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "id_medan",
+      "latitude": 3.5952,
+      "longitude": 98.6722,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "id_medan",
+      "latitude": 3.5952,
+      "longitude": 98.6722,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "id_medan",
+      "latitude": 3.5952,
+      "longitude": 98.6722,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "id_berastagi",
+      "latitude": 3.1947,
+      "longitude": 98.5089,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "id_berastagi",
+      "latitude": 3.1947,
+      "longitude": 98.5089,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "id_berastagi",
+      "latitude": 3.1947,
+      "longitude": 98.5089,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "id_berastagi",
+      "latitude": 3.1947,
+      "longitude": 98.5089,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "id_berastagi",
+      "latitude": 3.1947,
+      "longitude": 98.5089,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "id_berastagi",
+      "latitude": 3.1947,
+      "longitude": 98.5089,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "sg_singapore",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "year": 2020,
+      "start": "2020-01-01",
+      "end": "2020-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "sg_singapore",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "year": 2021,
+      "start": "2021-01-01",
+      "end": "2021-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "sg_singapore",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "sg_singapore",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "hours": 8760
+    },
+    {
+      "location_id": "sg_singapore",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "hours": 8784
+    },
+    {
+      "location_id": "sg_singapore",
+      "latitude": 1.3521,
+      "longitude": 103.8198,
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "hours": 8760
+    }
+  ],
+  "expected_rows": 5260800,
+  "estimated_weighted_calls": 73800
+}

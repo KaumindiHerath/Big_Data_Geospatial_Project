@@ -1,0 +1,7 @@
+location_name,temperature_2m,apparent_temperature,precipitation,wind_speed_10m,relative_humidity_2m,pressure_msl,cloud_cover
+Jaffna,27.84,30.83,0.17,5.9,78.1,1009.15,66.82
+Batticaloa,27.82,32.31,0.19,2.46,77.04,1009.29,72.29
+Trincomalee,27.76,31.07,0.18,4.46,75.78,1009.24,70.19
+Colombo,26.89,31.62,0.31,2.4,82.69,1009.92,74.57
+Matara,26.88,31.2,0.25,3.57,83.85,1010.01,73.45
+Galle,26.82,31.58,0.32,2.74,83.91,1010.19,75.93

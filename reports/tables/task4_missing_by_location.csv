@@ -1,0 +1,7 @@
+location_id,temperature_2m,precipitation,wind_speed_10m,relative_humidity_2m,pressure_msl,boundary_layer_height,total_column_integrated_water_vapour
+lk_batticaloa,0.0,0.0,0.0,0.0,0.0,8.3,8.3
+lk_colombo,0.0,0.0,0.0,0.0,0.0,8.3,8.3
+lk_galle,0.0,0.0,0.0,0.0,0.0,8.3,8.3
+lk_jaffna,0.0,0.0,0.0,0.0,0.0,8.3,8.3
+lk_matara,0.0,0.0,0.0,0.0,0.0,9.96,9.96
+lk_trincomalee,0.0,0.0,0.0,0.0,0.0,8.3,8.3

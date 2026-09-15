@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+data/processed/weather_raw_concat.parquet

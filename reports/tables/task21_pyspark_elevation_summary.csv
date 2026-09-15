@@ -1,0 +1,7 @@
+location_id,name,elevation_m,mean_temp,n_obs
+lk_galle,Galle,3.0,26.816480383211765,52608
+lk_matara,Matara,6.0,26.875002280605788,43848
+lk_colombo,Colombo,9.0,26.894827782846686,52608
+lk_trincomalee,Trincomalee,9.0,27.76002128953763,52608
+lk_jaffna,Jaffna,9.0,27.84410355839424,52608
+lk_batticaloa,Batticaloa,10.0,27.82426056873485,52608

@@ -1,0 +1,2 @@
+rows_before_merge,rows_after_merge,rows_lost,duplicate_records_after_merge,n_locations,n_years,date_min,date_max
+306888,306888,0,0,6,6,2020-01-01 00:00:00+00:00,2025-12-31 23:00:00+00:00

@@ -1,0 +1,363 @@
+Downloading lk_colombo / 2022 (8760 hours)
+Downloading lk_colombo / 2023 (8760 hours)
+Downloading lk_colombo / 2024 (8784 hours)
+Downloading lk_colombo / 2025 (8760 hours)
+Downloading lk_jaffna / 2020 (8784 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 6,
+  "completed_rows": 52608,
+  "reason": "Local 60s quota budget reached; resume in ~33s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_jaffna / 2020 (8784 hours)
+Downloading lk_jaffna / 2021 (8760 hours)
+Downloading lk_jaffna / 2022 (8760 hours)
+Downloading lk_jaffna / 2023 (8760 hours)
+Downloading lk_jaffna / 2024 (8784 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 10,
+  "completed_rows": 87672,
+  "reason": "Local 60s quota budget reached; resume in ~44s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_jaffna / 2024 (8784 hours)
+Downloading lk_jaffna / 2025 (8760 hours)
+Downloading lk_trincomalee / 2020 (8784 hours)
+Downloading lk_trincomalee / 2021 (8760 hours)
+Downloading lk_trincomalee / 2022 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 14,
+  "completed_rows": 122760,
+  "reason": "Local 60s quota budget reached; resume in ~41s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_trincomalee / 2022 (8760 hours)
+Downloading lk_trincomalee / 2023 (8760 hours)
+Downloading lk_trincomalee / 2024 (8784 hours)
+Downloading lk_trincomalee / 2025 (8760 hours)
+Downloading lk_batticaloa / 2020 (8784 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 18,
+  "completed_rows": 157824,
+  "reason": "Local 60s quota budget reached; resume in ~37s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_batticaloa / 2020 (8784 hours)
+Downloading lk_batticaloa / 2021 (8760 hours)
+Downloading lk_batticaloa / 2022 (8760 hours)
+Downloading lk_batticaloa / 2023 (8760 hours)
+Downloading lk_batticaloa / 2024 (8784 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 22,
+  "completed_rows": 192888,
+  "reason": "Local 60s quota budget reached; resume in ~40s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_batticaloa / 2024 (8784 hours)
+Downloading lk_batticaloa / 2025 (8760 hours)
+Downloading lk_galle / 2020 (8784 hours)
+Downloading lk_galle / 2021 (8760 hours)
+Downloading lk_galle / 2022 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 26,
+  "completed_rows": 227976,
+  "reason": "Local 60s quota budget reached; resume in ~39s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_galle / 2022 (8760 hours)
+Downloading lk_galle / 2023 (8760 hours)
+Downloading lk_galle / 2024 (8784 hours)
+Downloading lk_galle / 2025 (8760 hours)
+Downloading lk_matara / 2020 (8784 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 30,
+  "completed_rows": 263040,
+  "reason": "Local 60s quota budget reached; resume in ~41s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2020 (8784 hours)
+Downloading lk_matara / 2021 (8760 hours)
+Downloading lk_matara / 2022 (8760 hours)
+Downloading lk_matara / 2023 (8760 hours)
+Downloading lk_matara / 2024 (8784 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 34,
+  "completed_rows": 298104,
+  "reason": "Local 60s quota budget reached; resume in ~53s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2024 (8784 hours)
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~2570s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~2510s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~2450s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~2390s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~2330s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~2270s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~2210s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~2150s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~2090s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~2030s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1969s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1909s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1849s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1789s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1729s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1669s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1609s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1549s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1489s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1429s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1368s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1308s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1248s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1188s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.
+Downloading lk_matara / 2025 (8760 hours)
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1128s"
+}
+Paused; rechecking in 60 seconds. Ctrl+C is safe; rerun to resume.

@@ -1,0 +1,8 @@
+{
+  "status": "paused",
+  "expected_chunks": 600,
+  "expected_rows": 5260800,
+  "completed_chunks": 35,
+  "completed_rows": 306888,
+  "reason": "Local 3600s quota budget reached; resume in ~1128s"
+}
