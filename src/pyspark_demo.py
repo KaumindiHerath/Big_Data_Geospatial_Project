@@ -13,6 +13,7 @@ Run with the project's venv that has pyspark installed:
 setuptools/distutils incompatibility in this sandbox - documented in
 README.md - so PySpark lives in a separate virtualenv here.)
 """
+import os
 import time
 
 from pyspark.sql import SparkSession
@@ -20,12 +21,21 @@ from pyspark.sql import functions as F
 
 from config import RAW, WEATHER_ROOT, LOCATIONS_FILE, TABLES
 
+# Spark's RPC URL parser rejects underscores in hostnames. Windows machine
+# names commonly contain one (e.g. "KAUMINDI_HERATH"), which crashes
+# SparkContext init with "Invalid Spark URL" before any code here runs.
+# Forcing the driver to bind/advertise on loopback sidesteps that - local[*]
+# mode never needs to be reachable from another machine anyway.
+os.environ.setdefault("SPARK_LOCAL_HOSTNAME", "localhost")
+
 
 def main():
     spark = (
         SparkSession.builder
         .appName("GeospatialWeatherElevation")
         .master("local[*]")
+        .config("spark.driver.host", "127.0.0.1")
+        .config("spark.driver.bindAddress", "127.0.0.1")
         .config("spark.sql.shuffle.partitions", "8")
         .config("spark.ui.showConsoleProgress", "false")
         .getOrCreate()

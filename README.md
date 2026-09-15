@@ -48,6 +48,21 @@ python3 -m venv /tmp/spark_venv
 PYTHONPATH=src /tmp/spark_venv/bin/python3 src/pyspark_demo.py
 ```
 
+On Windows, `pip install pyspark` inside a normal venv usually works fine
+directly (no separate-venv workaround needed) - just activate the venv and
+`pip install pyspark pandas pyarrow`, then `python src\pyspark_demo.py` from
+the project root.
+
+**Windows gotcha:** if you see `SparkException: Invalid Spark URL:
+spark://HeartbeatReceiver@YOUR_PC_NAME:port` at startup, it's because Spark's
+URL parser rejects underscores in hostnames and Windows machine names often
+have one. `src/pyspark_demo.py` already works around this (forces the driver
+to bind to `127.0.0.1`), so pulling the latest version of this file fixes
+it; the one-line manual fix if needed is `set SPARK_LOCAL_HOSTNAME=localhost`
+before running. The `winutils.exe`/`HADOOP_HOME` warning printed above it is
+unrelated and harmless for this script (no HDFS or native Hadoop I/O is used
+- everything reads local Parquet files directly).
+
 ## Extending the dataset (optional)
 
 The 6 original locations (Jaffna, Batticaloa, Trincomalee, Colombo, Matara,
